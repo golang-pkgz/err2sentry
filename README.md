@@ -1,4 +1,6 @@
 # Handle errors with sentry
+[![Go](https://github.com/golang-pkgz/err2sentry/actions/workflows/go.yml/badge.svg)](https://github.com/golang-pkgz/err2sentry/actions/)
+
 [Go SDK](https://docs.sentry.io/platforms/go/)
 
 ## Install
