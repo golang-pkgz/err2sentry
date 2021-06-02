@@ -1,0 +1,5 @@
+# github.com/getsentry/sentry-go v0.10.0
+## explicit
+github.com/getsentry/sentry-go
+github.com/getsentry/sentry-go/internal/crypto/randutil
+github.com/getsentry/sentry-go/internal/debug

@@ -1,0 +1,12 @@
+stages:
+ - test
+
+test:
+    image: golang:1.16-alpine
+    stage: test
+    tags:
+      - docker
+    before_script:
+      - apk --no-cache add build-base git
+    script:
+      - make test
