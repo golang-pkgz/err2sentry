@@ -5,7 +5,7 @@ import (
 )
 
 func isE2sFrame(frame sentry.Frame) bool {
-	return frame.Module == "git.dev.a1fred.com/golibs/err2sentry%2egit"
+	return frame.Module == "github.com/golang-pkgz/err2sentry"
 }
 
 // Cleanup e2s's frames from sentry events
